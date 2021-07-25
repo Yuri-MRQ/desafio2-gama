@@ -1,6 +1,6 @@
 # Desafio 2 
 
-Desafio 2 do Hering Coders
+Desafio 2 do Hiring Coders
 
 ## Description
 
