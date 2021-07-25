@@ -15,20 +15,7 @@ export default function Home() {
     const galleryType = ['Novos', 'Cadastrados']
     
     const alreadyInsertList = dataBaseProduct.slice(0, 8)
-    
-    function getItensLocal(){
-        const keys = Object.keys(localStorage);
-        let i = keys.length;
-        let data = []
-        while(i --){
-            data.push(JSON.parse(localStorage.getItem(`product-${i}`)))
-        };
-        
-        if (data.length !== localStorageList.length){
-            setlocalStorageList(data)
-        }
 
-    };
 
     function ActiveLink(props){
         const text = props.text;
@@ -60,6 +47,19 @@ export default function Home() {
     };
 
     useEffect(() => {
+        function getItensLocal(){
+            const keys = Object.keys(localStorage);
+            let i = keys.length;
+            let data = []
+            while(i --){
+                data.push(JSON.parse(localStorage.getItem(`product-${i}`)))
+            };
+            
+            if (data.length !== localStorageList.length){
+                setlocalStorageList(data)
+            }
+    
+        };
         getItensLocal()
         
     }, [localStorageList])
