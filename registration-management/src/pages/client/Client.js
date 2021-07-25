@@ -10,7 +10,6 @@ export default function Client(){
         adress: ""
     }])
     const [ counter, setCounter ] = useState(0)
-    const [ showMsg, setShowMsg ] = useState(false)
 
 function handleChange(e){
     const text = e.target.value
@@ -24,8 +23,10 @@ function handleChange(e){
 function handleCadastrar(){
     const keys = Object.keys(localStorage);
     let i = keys.length;
+    setCounter( i + 1 );
     
     localStorage.setItem(`client-${counter}`, JSON.stringify(client))
+
     // to-do, implementar flashmensage
     setShowMsg(true)
 }

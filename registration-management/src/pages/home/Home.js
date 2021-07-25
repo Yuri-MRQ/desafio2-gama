@@ -32,12 +32,12 @@ export default function Home() {
 
     function ActiveLink(props){
         const text = props.text;
-        return <li className="tm-paging-item"><a href="#" className="tm-paging-link active" onClick={handleClick}>{text}</a></li>;
+        return <li className="tm-paging-item"><Link className="tm-paging-link active" onClick={handleClick}>{text}</Link></li>;
     };
 
     function DesiabledLink(props) {
         const text = props.text;
-        return <li className="tm-paging-item"><a href="#" className="tm-paging-link" onClick={handleClick}>{text}</a></li>;
+        return <li className="tm-paging-item"><Link className="tm-paging-link" onClick={handleClick}>{text}</Link></li>;
     };
 
     function handleClick(e){
