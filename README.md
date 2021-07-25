@@ -55,7 +55,8 @@ $ cd registration-management
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ pnpm run start```
+$ pnpm run start
+```
 
 ## License
 MIT License
