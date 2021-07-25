@@ -28,7 +28,7 @@ function handleCadastrar(){
     localStorage.setItem(`client-${counter}`, JSON.stringify(client))
 
     // to-do, implementar flashmensage
-    setShowMsg(true)
+    // setShowMsg(true)
 }
 
 
