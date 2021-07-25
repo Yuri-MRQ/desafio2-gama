@@ -77,8 +77,8 @@ export default function Home() {
                                 <div className="col-md-6 col-12">
                                     <img src="img/simple-house-logo.png" alt="Logo" className="tm-site-logo" /> 
                                     <div className="tm-site-text-box">
-                                        <h1 className="tm-site-title">Simple House</h1>
-                                        <h6 className="tm-site-description">new restaurant template</h6>	
+                                        <h1 className="tm-site-title">Hiring Coders</h1>
+                                        <h6 className="tm-site-description">Gamma Academy</h6>	
                                     </div>
                                 </div>
                                 <nav className="col-md-6 col-12 tm-nav">

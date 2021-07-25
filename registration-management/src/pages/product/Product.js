@@ -40,14 +40,14 @@ function handleCadastrar(){
                                 <div className="col-md-6 col-12">
                                     <img src="img/simple-house-logo.png" alt="Logo" className="tm-site-logo" /> 
                                     <div className="tm-site-text-box">
-                                        <h1 className="tm-site-title">Simple House</h1>
-                                        <h6 className="tm-site-description">new restaurant template</h6>	
+                                    <h1 className="tm-site-title">Hiring Coders</h1>
+                                    <h6 className="tm-site-description">Gamma Academy</h6>	
                                     </div>
                                 </div>
                                 <nav className="col-md-6 col-12 tm-nav">
                                     <ul className="tm-nav-ul">
-                                        <li className="tm-nav-li"><Link to="/" className="tm-nav-link active">Home</Link></li>
-                                        <li className="tm-nav-li"><Link to="/produto" className="tm-nav-link">Cadastrar Produto</Link></li>
+                                        <li className="tm-nav-li"><Link to="/" className="tm-nav-link">Home</Link></li>
+                                        <li className="tm-nav-li"><Link to="/produto" className="tm-nav-link active">Cadastrar Produto</Link></li>
                                         <li className="tm-nav-li"><Link to="/client" className="tm-nav-link">Cadastrar Cliente</Link></li>
                                     </ul>
                                 </nav>	

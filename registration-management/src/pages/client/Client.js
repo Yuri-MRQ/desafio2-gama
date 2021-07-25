@@ -44,15 +44,15 @@ function handleCadastrar(){
                                 <div className="col-md-6 col-12">
                                     <img src="img/simple-house-logo.png" alt="Logo" className="tm-site-logo" /> 
                                     <div className="tm-site-text-box">
-                                        <h1 className="tm-site-title">Simple House</h1>
-                                        <h6 className="tm-site-description">new restaurant template</h6>	
+                                    <h1 className="tm-site-title">Hiring Coders</h1>
+                                    <h6 className="tm-site-description">Gamma Academy</h6>	
                                     </div>
                                 </div>
                                 <nav className="col-md-6 col-12 tm-nav">
                                     <ul className="tm-nav-ul">
-                                        <li className="tm-nav-li"><Link to="/" className="tm-nav-link active">Home</Link></li>
+                                        <li className="tm-nav-li"><Link to="/" className="tm-nav-link">Home</Link></li>
                                         <li className="tm-nav-li"><Link to="/produto" className="tm-nav-link">Cadastrar Produto</Link></li>
-                                        <li className="tm-nav-li"><Link to="/client" className="tm-nav-link">Cadastrar Cliente</Link></li>
+                                        <li className="tm-nav-li"><Link to="/client" className="tm-nav-link active">Cadastrar Cliente</Link></li>
                                     </ul>
                                 </nav>	
                             </div>
@@ -62,7 +62,7 @@ function handleCadastrar(){
 
                 <main>
                     <header className="row tm-welcome-section">
-                        <h2 className="col-12 text-center tm-section-title">Cadastrar Produto</h2>
+                        <h2 className="col-12 text-center tm-section-title">Cadastrar Cliente</h2>
                     </header>
 
                     <div className="tm-container-inner-2 tm-contact-section">
@@ -96,7 +96,7 @@ function handleCadastrar(){
                             <div className="col-md-6">
                                 <div classNAme="tm-address-box">
                                     {/* to do: setar upload foto e trocar nome das classes */}
-                                    <img src= "img/gallery/01.jpg" alt="some stuf" className="img-fluid tm-gallery-img" />
+                                    <img src= "img/about-03.jpg" alt="some stuf" className="img-fluid tm-gallery-img" />
                                 </div>
 					        </div>
                         </div>
