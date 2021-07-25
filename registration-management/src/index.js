@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import Routers from './Routers';
+import './css/templatemo-style.css';
 
 ReactDOM.render(
-  <Routers>
     <React.StrictMode>
       <App />
-    </React.StrictMode>
-  </Routers>,
+    </React.StrictMode>,
   document.getElementById('root')
 );
 
