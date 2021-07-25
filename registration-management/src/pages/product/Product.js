@@ -18,8 +18,12 @@ function handleChange(e){
 };
 
 function handleCadastrar(){
+    const keys = Object.keys(localStorage);
+    let i = keys.length;
+    
+    setCounter( i + 1 );
+    
     localStorage.setItem(`product-${counter}`, JSON.stringify(product))
-    setCounter( + 1 )
 }
 
 

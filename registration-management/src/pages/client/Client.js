@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import FlashMessage from 'react-flash-message'
 
 export default function Client(){
     const [ client, setClient ] = useState([{
@@ -11,6 +10,7 @@ export default function Client(){
         adress: ""
     }])
     const [ counter, setCounter ] = useState(0)
+    const [ showMsg, setShowMsg ] = useState(false)
 
 function handleChange(e){
     const text = e.target.value
@@ -18,11 +18,16 @@ function handleChange(e){
     dataToChange[0][e.target.name] = text
     setClient(dataToChange)
 
+
 };
 
 function handleCadastrar(){
+    const keys = Object.keys(localStorage);
+    let i = keys.length;
+    
     localStorage.setItem(`client-${counter}`, JSON.stringify(client))
-    setCounter(counter + 1)
+    // to-do, implementar flashmensage
+    setShowMsg(true)
 }
 
 
@@ -63,6 +68,7 @@ function handleCadastrar(){
                     <div className="tm-container-inner-2 tm-contact-section">
                         <div className="row">
                             <div className="col-md-6">
+                                
                                 <form action="" method="POST" className="tm-contact-form">
                                     <div className="form-group">
                                     <input type="text" name="name" value= {client.name} className="form-control" placeholder="Nome" onChange={handleChange} />

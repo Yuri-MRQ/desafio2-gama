@@ -134,8 +134,7 @@ export default function Home() {
                             <div className="col-md-6">
                                 <div className="tm-description-box"> 
                                     <h4 className="tm-gallery-title">Maecenas nulla neque</h4>
-                                    <p className="tm-mb-45">Redistributing this template as a downloadable ZIP file on any template collection site is strictly prohibited. You will need to <a rel="nofollow" href="https://templatemo.com/contact">talk to us</a> for additional permissions about our templates. Thank you.</p>
-                                    <a href="about.html" className="tm-btn tm-btn-default tm-right">Read More</a>
+                                    <p className="tm-mb-45">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                             </div>
                         </div>
