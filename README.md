@@ -2,6 +2,10 @@
 
 Desafio 2 do Hiring Coders
 
+### Link da página
+
+https://desafio2-gama.vercel.app/
+
 ## Description
 
 O desafio consiste em fazer um sistema de Gestão de Cadastros contendo:
