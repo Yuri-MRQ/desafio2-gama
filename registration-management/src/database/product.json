@@ -1,0 +1,42 @@
+[{
+    "src": "img/gallery/01.jpg",
+    "title": "Fusce dictum finibus",
+    "descr": "Nam in suscipit nisi, sit amet consectetur metus. Ut sit amet tellus accumsan",
+    "price": "R$ 45 / R$ 55"
+  }, {
+    "src": "img/gallery/02.jpg",
+    "title": "Aliquam sagittis",
+    "descr": "Uma boa descrição vende qualquer bom produto, tudo é a form como descreve",
+    "price": "R$ 190,55" 
+  }, {
+    "src": "img/gallery/03.jpg",
+    "title": "Image Title 2",
+    "descr": "rci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": "R$ 20" 
+  }, {
+    "src": "img/gallery/05.jpg",
+    "title": "Image Title 4",
+    "descr": "Alguma descrição para o produto ipsi lits bilis trips.",
+    "price": "R$ 40" 
+  }, {
+    "src": "img/gallery/04.jpg",
+    "title": "Nam in suscipit",
+    "descr": "Arci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": "R$ 123" 
+  }, {
+    "src": "img/gallery/08.jpg",
+    "title": "Sed ultricies dui",
+    "descr": "Prci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": "R$ 230" 
+  }, {
+    "src": "img/gallery/06.jpg",
+    "title": "Sed ultricies dui",
+    "descr": "Lrci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": "R$ 140" 
+  }, {
+    "src": "img/gallery/01.jpg",
+    "title": "Sed ultricies dui",
+    "descr": "Qualquer descrição descreverá",
+    "price": "R$ 223" 
+  }
+]
