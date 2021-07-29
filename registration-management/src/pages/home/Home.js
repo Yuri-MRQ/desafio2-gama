@@ -51,14 +51,15 @@ export default function Home() {
             const keys = Object.keys(localStorage);
             let i = keys.length;
             let data = []
-            while(i --){
-                data.push(JSON.parse(localStorage.getItem(`product-${i}`)))
-            };
-            
+            keys.map((key) => {
+                if(key.includes("product")){
+                    return data.push(JSON.parse(localStorage.getItem(`product-${i}`)))
+                }
+            })
             if (data.length !== localStorageList.length){
                 setlocalStorageList(data)
             }
-    
+            console.log(data)
         };
         getItensLocal()
         
